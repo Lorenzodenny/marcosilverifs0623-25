@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 2;
 }
 
 main {
@@ -11,6 +12,7 @@ main {
 a {
   text-decoration: none;
   color: rgb(92, 92, 213);
+  font-weight: 400;
 }
 
 header {
@@ -46,4 +48,17 @@ header {
 
 .margin-icon {
   margin: 2% 2% 5% 0;
+}
+
+p {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: gray;
 }/*# sourceMappingURL=stileSetting.css.map */
