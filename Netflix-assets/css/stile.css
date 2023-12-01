@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  padding: 0 4%;
+}
+body h1 {
+  font-size: 3rem;
+}
+
+body > header > nav > div > button {
+  background-color: gray;
+}
+
+.dimensione {
+  width: 22%;
+  margin: 1%;
+}
+.dimensione:hover {
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+}
+
+.contenitoreFilm {
+  margin-left: 1.5%;
+}
+
+.bottoneUno {
+  border-radius: 0px;
+}
+
+h2 {
+  margin: 6% 0 2% 0;
+}
+
+.margin-icon {
+  margin: 2% 2% 5% 0;
+}
+
+#navbarSupportedContent > ul > li:nth-child(1) > a,
+#navbarSupportedContent > ul > li:nth-child(2) > a,
+#navbarSupportedContent > ul > li:nth-child(3) > a,
+#navbarSupportedContent > ul > li:nth-child(4) > a,
+#navbarSupportedContent > ul > li:nth-child(5) > a,
+#navbarSupportedContent > ul > li:nth-child(6) > a,
+#navbarSupportedContent > ul > li:nth-child(7) > a,
+#navbarSupportedContent > ul > li:nth-child(8) > a,
+#navbarSupportedContent > ul > li:nth-child(9) > a {
+  color: white;
+}
+
+footer {
+  margin-top: 8%;
+  padding: 2% 20%;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+address {
+  margin: 5% 0 2% 2%;
+}
+
+.icone {
+  font-weight: bold;
+}
+
+#navbarSupportedContent > div > ul > li.nav-item.dropdown {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbarSupportedContent > div > ul > li.nav-item.dropdown.boh > img {
+  width: 3em;
+}/*# sourceMappingURL=stile.css.map */

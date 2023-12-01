@@ -1,0 +1,11 @@
+{
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/Netflix-assets/css",
+            "savePathReplacementPairs": null
+        }
+    ]
+}

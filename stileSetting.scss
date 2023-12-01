@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+.icone{
+    font-weight: bold;
+    color: white;
+}
+
+#navbarSupportedContent > div > ul > li.nav-item.dropdown{
+   display: flex;
+   justify-content: flex-end;
+}
+
+#navbarSupportedContent > div > ul > li.nav-item.dropdown.boh > img{
+    width: 3em;
+
+}
+
+#navbarSupportedContent > ul > li:nth-child(1) > a,
+#navbarSupportedContent > ul > li:nth-child(2) > a,
+#navbarSupportedContent > ul > li:nth-child(3) > a,
+#navbarSupportedContent > ul > li:nth-child(4) > a,
+#navbarSupportedContent > ul > li:nth-child(5) > a,
+#navbarSupportedContent > ul > li:nth-child(6) > a,
+#navbarSupportedContent > ul > li:nth-child(7) > a,
+#navbarSupportedContent > ul > li:nth-child(8) > a,
+#navbarSupportedContent > ul > li:nth-child(9) > a{
+    color: white;
+}
+
+
+.margin-icon {
+    margin: 2% 2% 5% 0;
+}
